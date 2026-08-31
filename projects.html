@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Sumsodduha Shawon</title>
+<meta name="description" content="Projects by Sumsodduha Shawon — systems, security, and database work in progress and planned.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23181B22'/><path d='M8 11l6 5-6 5M16 21h8' stroke='%23D9A441' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand"><span>S.S</span><span class="dot mono">_</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" class="current" aria-current="page">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="goals.html">Goals</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="nav-cta mono">get in touch</a>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html" class="current" aria-current="page">Projects</a>
+    <a href="education.html">Education</a>
+    <a href="goals.html">Goals</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Projects</div>
+      <h1>Projects</h1>
+      <p class="lede">A mix of in-progress builds and planned work across systems, security, and databases.</p>
+    </div>
+  </section>
+
+  <section class="section" id="projects" style="padding-top:32px;">
+    <div class="wrap">
+
+      <div class="proj-list reveal">
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-name">cpp-dsa-lab</div>
+            <span class="proj-status status-progress">In progress</span>
+          </div>
+          <div>
+            <div class="proj-desc">DSA practice in C++ with unit tests covering core structures and algorithms.</div>
+            <div class="proj-stack"><span class="stack-badge">C++</span><span class="stack-badge">CMake</span><span class="stack-badge">GTest</span></div>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/Shawon349" target="_blank" rel="noopener">GitHub →</a>
+            <span class="disabled">Demo pending</span>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-name">c-systems-toolkit</div>
+            <span class="proj-status status-progress">In progress</span>
+          </div>
+          <div>
+            <div class="proj-desc">Small C tools for working directly with files and memory — built to understand what the standard library hides.</div>
+            <div class="proj-stack"><span class="stack-badge">C</span><span class="stack-badge">Make</span><span class="stack-badge">Linux</span></div>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/Shawon349" target="_blank" rel="noopener">GitHub →</a>
+            <span class="disabled">Demo pending</span>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-name">securiscan</div>
+            <span class="proj-status status-planned">Planned</span>
+          </div>
+          <div>
+            <div class="proj-desc">A Python defensive tool for parsing and summarizing scanner reports.</div>
+            <div class="proj-stack"><span class="stack-badge">Python</span><span class="stack-badge">Regex</span><span class="stack-badge">CSV</span></div>
+          </div>
+          <div class="proj-links">
+            <span class="disabled">Repo pending</span>
+            <span class="disabled">Demo pending</span>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-name">db-schema-lab</div>
+            <span class="proj-status status-planned">Planned</span>
+          </div>
+          <div>
+            <div class="proj-desc">A SQL repository focused on normalization exercises and schema design reasoning.</div>
+            <div class="proj-stack"><span class="stack-badge">SQL</span><span class="stack-badge">PostgreSQL</span></div>
+          </div>
+          <div class="proj-links">
+            <span class="disabled">Repo pending</span>
+            <span class="disabled">Demo pending</span>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-name">cs-cyberlabs</div>
+            <span class="proj-status status-progress">In progress</span>
+          </div>
+          <div>
+            <div class="proj-desc">Ethical lab notes and analysis from guided security exercises in a controlled environment.</div>
+            <div class="proj-stack"><span class="stack-badge">Markdown</span><span class="stack-badge">Nmap</span><span class="stack-badge">Wireshark</span></div>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/Shawon349" target="_blank" rel="noopener">GitHub →</a>
+            <span class="disabled">Demo pending</span>
+          </div>
+        </div>
+
+        <div class="proj-row">
+          <div>
+            <div class="proj-name">java-oop-lib</div>
+            <span class="proj-status status-planned">Planned</span>
+          </div>
+          <div>
+            <div class="proj-desc">A structured OOP library system built to practice class design and encapsulation.</div>
+            <div class="proj-stack"><span class="stack-badge">Java</span><span class="stack-badge">OOP</span></div>
+          </div>
+          <div class="proj-links">
+            <span class="disabled">Repo pending</span>
+            <span class="disabled">Demo pending</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 Sumsodduha Shawon. Built from scratch.</span>
+    <div class="social-row">
+      <a href="https://github.com/Shawon349" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+      <a href="mailto:Shawonthebhoot@gmail.com" aria-label="Email">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

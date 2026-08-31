@@ -1,0 +1,212 @@
+{
+  "basics": {
+    "name": "Sumsodduha Shawon",
+    "label": "Computer Science Undergraduate",
+    "headline": "Computer Science & Engineering — University of Asia Pacific",
+    "email": "Shawonthebhoot@gmail.com",
+    "location": {
+      "country": "Bangladesh"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Shawon349",
+        "url": "https://github.com/Shawon349"
+      }
+    ],
+    "avatar": "img/profile.jpg",
+    "bio": "A third-year CSE student building robust systems and secure software, one deliberate line of code at a time. Currently splitting time between low-level programming, defensive security, and database design.",
+    "focusAreas": [
+      { "name": "Systems Programming", "theme": "amber" },
+      { "name": "Defensive Cybersecurity", "theme": "blue" },
+      { "name": "Software Engineering", "theme": "teal" }
+    ]
+  },
+  "terminalSequence": [
+    { "type": "prompt", "text": "$ whoami" },
+    { "type": "out", "text": "Sumsodduha Shawon" },
+    { "type": "prompt", "text": "$ cat focus.txt" },
+    { "type": "out", "text": "Systems Programming" },
+    { "type": "out", "text": "Defensive Cybersecurity" },
+    { "type": "out", "text": "Software Engineering" },
+    { "type": "prompt", "text": "$ cat status.txt" },
+    { "type": "comment", "text": "# 3rd year CSE @ University of Asia Pacific" },
+    { "type": "comment", "text": "# building things that need to hold up" }
+  ],
+  "about": {
+    "paragraphs": [
+      "I'm a third-year, first-semester CSE student at the University of Asia Pacific, and I've been at it since 2024. My coursework and side projects both circle the same question: how do you build software that actually holds up — correct under load, and hard to break into.",
+      "That question pulls me toward three areas in particular: systems programming close to the machine, defensive security practices that anticipate misuse, and database design that keeps data honest. I like problems where the constraints are real, not theoretical."
+    ],
+    "values": [
+      {
+        "title": "Code quality",
+        "description": "Readable, tested code over clever code. I'd rather ship something maintainable than something merely working."
+      },
+      {
+        "title": "Security first",
+        "description": "I think about failure modes and misuse cases while designing, not after something breaks."
+      },
+      {
+        "title": "Honest learning",
+        "description": "I label what I know, what I'm still learning, and what I've only read about — no inflated claims."
+      },
+      {
+        "title": "Collaboration",
+        "description": "Good software is a team effort. I write for the next person reading the code, including future me."
+      }
+    ]
+  },
+  "skills": {
+    "languages": {
+      "category": "Languages",
+      "hue": "amber",
+      "items": [
+        { "name": "C", "level": 80, "status": "Solid" },
+        { "name": "C++", "level": 72, "status": "Comfortable" },
+        { "name": "Python", "level": 75, "status": "Comfortable" },
+        { "name": "Java", "level": 55, "status": "Learning" },
+        { "name": "SQL", "level": 65, "status": "Comfortable" }
+      ]
+    },
+    "web": {
+      "category": "Web",
+      "hue": "blue",
+      "items": [
+        { "name": "HTML / CSS", "level": 78, "status": "Comfortable" },
+        { "name": "JavaScript", "level": 60, "status": "Comfortable" },
+        { "name": "React", "level": 40, "status": "Learning" },
+        { "name": "Tailwind", "level": 65, "status": "Comfortable" }
+      ]
+    },
+    "toolsAndSystems": {
+      "category": "Tools & systems",
+      "hue": "teal",
+      "items": [
+        { "name": "Git / GitHub", "level": 80, "status": "Solid" },
+        { "name": "Linux", "level": 70, "status": "Comfortable" },
+        { "name": "GitHub Actions", "level": 35, "status": "Learning" }
+      ]
+    },
+    "securityAndLogic": {
+      "category": "Security & logic",
+      "hue": "coral",
+      "items": [
+        { "name": "DSA", "level": 70, "status": "Comfortable" },
+        { "name": "Unit testing", "level": 60, "status": "Comfortable" },
+        { "name": "Nmap", "level": 45, "status": "Learning" },
+        { "name": "Wireshark", "level": 40, "status": "Learning" },
+        { "name": "John the Ripper", "level": 30, "status": "Learning" }
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": "cpp-dsa-lab",
+      "name": "cpp-dsa-lab",
+      "status": "In progress",
+      "statusCode": "in-progress",
+      "description": "DSA practice in C++ with unit tests covering core structures and algorithms.",
+      "stack": ["C++", "CMake", "GTest"],
+      "githubUrl": "https://github.com/Shawon349",
+      "demoUrl": null
+    },
+    {
+      "id": "c-systems-toolkit",
+      "name": "c-systems-toolkit",
+      "status": "In progress",
+      "statusCode": "in-progress",
+      "description": "Small C tools for working directly with files and memory — built to understand what the standard library hides.",
+      "stack": ["C", "Make", "Linux"],
+      "githubUrl": "https://github.com/Shawon349",
+      "demoUrl": null
+    },
+    {
+      "id": "securiscan",
+      "name": "securiscan",
+      "status": "Planned",
+      "statusCode": "planned",
+      "description": "A defensive Python tool for parsing and summarizing vulnerability scanner reports.",
+      "stack": ["Python", "Regex", "CSV"],
+      "githubUrl": null,
+      "demoUrl": null
+    },
+    {
+      "id": "db-schema-lab",
+      "name": "db-schema-lab",
+      "status": "Planned",
+      "statusCode": "planned",
+      "description": "A SQL repository focused on normalization exercises and schema design reasoning.",
+      "stack": ["SQL", "PostgreSQL"],
+      "githubUrl": null,
+      "demoUrl": null
+    },
+    {
+      "id": "cs-cyberlabs",
+      "name": "cs-cyberlabs",
+      "status": "In progress",
+      "statusCode": "in-progress",
+      "description": "Ethical lab notes and analysis from guided security exercises in a controlled environment.",
+      "stack": ["Markdown", "Nmap", "Wireshark"],
+      "githubUrl": "https://github.com/Shawon349",
+      "demoUrl": null
+    },
+    {
+      "id": "java-oop-lib",
+      "name": "java-oop-lib",
+      "status": "Planned",
+      "statusCode": "planned",
+      "description": "A structured OOP library system built to practice class design and encapsulation.",
+      "stack": ["Java", "OOP"],
+      "githubUrl": null,
+      "demoUrl": null
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Computer Science & Engineering",
+      "institution": "University of Asia Pacific",
+      "timeline": "2024 → 3rd year, 1st semester",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Database Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Object-Oriented Programming",
+        "Discrete Mathematics"
+      ]
+    }
+  ],
+  "goals": {
+    "items": [
+      {
+        "order": 1,
+        "title": "Algorithms",
+        "description": "Push DSA fluency further — timed problem sets, and applying patterns to real project code instead of isolated exercises."
+      },
+      {
+        "order": 2,
+        "title": "Systems programming",
+        "description": "Get comfortable building small C/C++ pipelines end-to-end — memory management, build systems, and performance basics."
+      },
+      {
+        "order": 3,
+        "title": "Full-stack",
+        "description": "Ship a complete end-to-end web app, from schema to UI, to connect the database and web skills I'm building separately."
+      },
+      {
+        "order": 4,
+        "title": "Cybersecurity automation",
+        "description": "Write Python tooling for log analysis and scan-report parsing — automating the repetitive parts of defensive work."
+      }
+    ],
+    "note": "Alongside coursework, I'm looking to contribute to open-source projects and take on an internship where I can apply these skills on real systems."
+  },
+  "contact": {
+    "headline": "Open for feedback and collaboration",
+    "message": "Whether it's a project, an internship, or just a question about something I've built — I'd like to hear from you.",
+    "email": "Shawonthebhoot@gmail.com",
+    "github": "https://github.com/Shawon349",
+    "location": "Bangladesh"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "shawon-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website of Sumsodduha Shawon — Computer Science & Engineering undergraduate focused on systems programming, cybersecurity, and software engineering.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "format": "prettier --write \"**/*.{html,css,js,json}\""
+  },
+  "keywords": [
+    "portfolio",
+    "computer-science",
+    "systems-programming",
+    "cybersecurity",
+    "web-development"
+  ],
+  "author": "Sumsodduha Shawon <Shawonthebhoot@gmail.com> (https://github.com/Shawon349)",
+  "license": "MIT"
+}
